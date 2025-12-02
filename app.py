@@ -2,8 +2,8 @@ import streamlit as st
 import joblib
 import re
 import string
-from nltk.corpus import stopwords
-from nltk.stem import WordNetLemmatizer
+#from nltk.corpus import stopwords
+#from nltk.stem import WordNetLemmatizer
 
 # Load trained model and vectorizer
 model = joblib.load("sentiment_model.pkl")
